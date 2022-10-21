@@ -33,8 +33,6 @@ tambahkan tag `<div>`.
 </html>
 ```         
 
-![Gambar 1](Screenshoots/Capture1.PNG)      
-
 ## CSS Float Property
 
 CSS float property ditambahkan didalam CSS. Untuk itu maka harus ditambahkan terlebih dahulu tag CSS nya       
@@ -59,7 +57,7 @@ div {
 </style>
 ```         
 
-![Gambar 2](Screenshoots/Capture2.PNG)       
+![Gambar 1](Screenshoots/Capture1.PNG)       
 
 ## Mengatur Clearfix Element
 
@@ -74,7 +72,7 @@ Tambahkan juga classnya yaitu `div4` supaya CSS nya bisa diatur. Tambahkan `clea
 }
 ```     
 
-![Gambar 3](Screenshoots/Capture3.PNG)        
+![Gambar 2](Screenshoots/Capture2.PNG)        
 
 ## Membuat Layout Sederhana
 
