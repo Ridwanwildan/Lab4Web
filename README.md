@@ -76,5 +76,41 @@ Tambahkan juga classnya yaitu `div4` supaya CSS nya bisa diatur. Tambahkan `clea
 
 ## Membuat Layout Sederhana
 
-Selanjutnya adalah membuat layout sederhana. Create file HTML dan CSS yang baru kemudian 
+Selanjutnya adalah membuat layout sederhana. Buat folder baru yang didalamnya sudah diisi file HTML dan CSS.      
+Kemudian isi dengan code seperti ini :            
 
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout Sederhana</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Layout Sederhana</h1>
+            </header>
+            <nav>
+                <a href="home.html" class="active">Home</a>
+                <a href="artikel.html">Artikel</a>
+                <a href="about.html">About</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+            <section id="hero"></section>
+            <section id="wrapper">
+                <section id="main"></section>
+                <aside id="sidebar"></aside>
+            </section>
+            <footer>
+                <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+            </footer>
+        </div>
+    </body>
+</html>
+```        
+
+![Gambar 3](Screenshoots/Capture3.PNG)        
