@@ -77,7 +77,7 @@ Tambahkan juga classnya yaitu `div4` supaya CSS nya bisa diatur. Tambahkan `clea
 ## Membuat Layout Sederhana
 
 Selanjutnya adalah membuat layout sederhana. Buat folder baru yang didalamnya sudah diisi file HTML dan CSS.      
-Kemudian isi dengan code seperti ini :            
+Kemudian isi dengan HTML seperti ini :            
 
 
 ```bash
@@ -113,4 +113,41 @@ Kemudian isi dengan code seperti ini :
 </html>
 ```        
 
-![Gambar 3](Screenshoots/Capture3.PNG)        
+![Gambar 3](Screenshoots/Capture3.PNG)         
+
+Kemudian tambahkan CSS nya seperti ini :                 
+
+```bash
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ line-height:1;
+ font-size:100%;
+ font-family:'Open Sans', sans-serif;
+ color:#5a5a5a;
+}
+
+#container {
+ width: 980px;
+ margin: 0 auto;
+ box-shadow: 0 0 1em #cccccc;
+}
+
+/* header */
+header {
+ padding: 20px;
+}
+
+header h1 {
+ margin: 20px 10px;
+ color: #b5b5b5;
+}
+```        
+
+![Gambar 4](Screenshoots/Capture4.PNG)         
