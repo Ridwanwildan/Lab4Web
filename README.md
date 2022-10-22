@@ -313,3 +313,20 @@ Tambahkan juga CSS nya seperti ini :
 ```        
 
 ![Gambar 7](Screenshoots/Capture7.PNG)         
+
+## Mengatur Footer
+
+Sebelumnya sudah ditambahkan isi dari tag `<footer>`. Sekarang saatnya tambahkan        
+style pada `<footer>` dengan menambahkan CSS seperti ini :          
+
+```bash
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+}
+```        
+
+![Gambar 8](Screenshoots/Capture8.PNG)         
