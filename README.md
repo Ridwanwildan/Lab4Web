@@ -179,3 +179,42 @@ nav a:hover {
 ```        
 
 ![Gambar 5](Screenshoots/Capture5.PNG)         
+
+##Membuat Hero
+
+Selanjutnya adalah menambahkan content pada section hero. Tambahkan HTML seperti ini :         
+
+```bash
+<section id="hero">
+    <h1>Hello World!</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+        elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+        pretium ac.
+    </p>
+    <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+```        
+
+Tambahkan juga CSS seperti  ini :           
+
+```bash
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+```        
