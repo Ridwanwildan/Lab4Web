@@ -151,3 +151,31 @@ header h1 {
 ```        
 
 ![Gambar 4](Screenshoots/Capture4.PNG)         
+
+## Membuat Navigasi
+
+Kemudian tambahkan style pada navigasi dengan CSS seperti ini :               
+
+```bash
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+```        
+
+![Gambar 5](Screenshoots/Capture5.PNG)         
