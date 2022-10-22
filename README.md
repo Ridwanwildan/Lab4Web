@@ -218,3 +218,98 @@ Tambahkan juga CSS seperti  ini :
     line-height: 25px;
 }
 ```        
+
+![Gambar 6](Screenshoots/Capture6.PNG)         
+
+## Mengatur Layout Main dan Sidebar
+
+Tambahkan CSS seperti ini untuk mengatur layout main dan sidebarnya.             
+
+```bash
+/* main content */
+#wrapper {
+    margin: 0;
+}
+
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+
+/* sidebar area */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+```        
+
+## Membuat Sidebar Widget
+
+Tambahkan elemen lain didalam sidebar. Masukkan HTML seperti ini pada tag `<aside>`.           
+
+```bash
+<aside id="sidebar">
+    <div class="widget-box">
+        <h3 class="title">Widget Header</h3>
+        <ul>
+        <li><a href="#">Widget Link</a></li>
+            <li><a href="#">Widget Link</a></li>
+            <li><a href="#">Widget Link</a></li>
+            <li><a href="#">Widget Link</a></li>
+            <li><a href="#">Widget Link</a></li>
+        </ul>
+    </div>
+    <div class="widget-box">
+        <h3 class="title">Widget Text</h3>
+        <p>
+            Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+            arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+            pharetra est nunc, nec pretium nunc pretium ac.
+        </p>
+    </div>
+</aside>    
+```        
+
+Tambahkan juga CSS nya seperti ini :             
+
+```bash
+/* widget */
+.widget-box {
+    border:1px solid #eee;
+    margin-bottom:20px;
+}
+
+.widget-box .title {
+    padding:10px 16px;
+    background-color:#428bca;
+    color:#fff;
+}
+
+.widget-box ul {
+    list-style-type:none;
+}
+
+.widget-box li {
+    border-bottom:1px solid #eee;
+}
+
+.widget-box li a {
+ padding:10px 16px;
+ color:#333;
+ display:block;
+ text-decoration:none;
+}
+
+.widget-box li:hover a {
+ background-color:#eee;
+}
+
+.widget-box p {
+ padding:15px;
+ line-height:25px;
+}
+```        
+
+![Gambar 7](Screenshoots/Capture7.PNG)         
