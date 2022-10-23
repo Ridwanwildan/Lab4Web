@@ -79,8 +79,7 @@ nav a:hover {
 }
 
 #main-about {
-    background-color: #e4e4e5;
-    float: left;
+    background-color: #fff;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -274,13 +273,14 @@ box img {
 }
 
 #popular {
-    float: left;
+    background-color: #e4e4e5;
     width: 100%;
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-#popular h2 {
+#popular h2,
+#history h2 {
     color: #1f5faa;
     margin-bottom: 20px;
     font-size: 25px;
@@ -293,18 +293,48 @@ box img {
 }
 
 .logo-space {
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 30px;
 }
 
 .rank {
+    font-weight:700;
+    font-size: 18px;
+}
+
+.rank-first {
     font-weight:800;
     font-size: 20px;
     color: #1f5faa;
 }
 
 .university-name p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.university-name-first p {
     color: #1f5faa;
     font-size: 17px;
+    line-height: 25px;
 }
-   
+
+.box-image {
+    width: 250px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.years {
+    font-weight:700;
+    font-size: 25px;
+    color: #1f5faa;
+    padding-bottom:8px;
+}
+
+#history {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
