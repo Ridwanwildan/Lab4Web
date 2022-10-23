@@ -78,6 +78,25 @@ nav a:hover {
     padding: 20px;
 }
 
+#main-about {
+    background-color: #e4e4e5;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#main-about h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#main-about h2 {
+    color: #1f5faa;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
 /* sidebar area */
 #sidebar {
     float: left;
@@ -141,6 +160,29 @@ footer {
     text-align:center;
 }
 
+.box-logo {
+    display:inline;
+    float:left;
+    width:30%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+    text-align:center;
+}
+
+.box-content {
+    display:inline;
+    float:left;
+    width:60%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+    text-align:left;
+    line-height: 25px;
+}
+
 .box h3 {
     margin: 15px 0;
 }
@@ -159,6 +201,30 @@ box img {
 .image-circle {
     border-radius: 50%;
 }
+
+.logo {
+    width: 200px;
+    display: inline-block;
+}
+
+.logo-section {
+    display:inline;
+    float:left;
+    width:25%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    text-align:center;
+}
+
+.logo-popular-first {
+    width: 160px;
+}
+
+.logo-popular {
+    width: 80px;
+}
+
 
 .row {
     margin: 0 -10px;
@@ -205,5 +271,40 @@ box img {
 
 .entry .right-img {
  float: right;
+}
+
+#popular {
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#popular h2 {
+    color: #1f5faa;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.space {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-space {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rank {
+    font-weight:800;
+    font-size: 20px;
+    color: #1f5faa;
+}
+
+.university-name p {
+    color: #1f5faa;
+    font-size: 17px;
 }
    
