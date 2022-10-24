@@ -7,6 +7,18 @@
 
 Dalam latihan Membuat CSS Layout ini, saya menggunakan [Google Chrome](https://www.google.com/intl/id_id/chrome/) sebagai web browser dan [visual studio code](https://code.visualstudio.com/) sebagai teks editornya.       
 
+Daftar isi :          
+* [Membuat Box Element](https://github.com/Ridwanwildan/Lab4Web#membuat-box-element)         
+* [CSS Float Property](https://github.com/Ridwanwildan/Lab4Web#css-float-property)         
+* [Mengatur Clearfix Element](https://github.com/Ridwanwildan/Lab4Web#mengatur-clearfix-element)         
+* [Membuat Layout Sederhana](https://github.com/Ridwanwildan/Lab4Web#membuat-layout-sederhana)         
+* [Membuat Navigasi](https://github.com/Ridwanwildan/Lab4Web#membuat-navigasi)         
+* [Mengatur Layout Main dan Sidebar](https://github.com/Ridwanwildan/Lab4Web#mengatur-layout-main-dan-sidebar)         
+* [Membuat Sidebar Widget](https://github.com/Ridwanwildan/Lab4Web#membuat-sidebar-widget)         
+* [Mengatur Footer](https://github.com/Ridwanwildan/Lab4Web#mengatur-footer)         
+* [Menambahkan Content Article](https://github.com/Ridwanwildan/Lab4Web#menambahkan-content-article)         
+* [Pertanyaan dan Tugas](https://github.com/Ridwanwildan/Lab4Web#pertanyaan-dan-tugas)         
+
 ## Membuat Box Element
 
 Pertama adalah membuat box elementnya terlebih dahulu, tambahkan tag `<section>` kemudian didalamnya         
@@ -487,3 +499,15 @@ Tambahkan juga CSS nya seperti ini :
 ```        
 
 ![Gambar 10](Screenshoots/Capture10.PNG)         
+
+## Pertanyaan dan Tugas
+
+* Tambahkan layout untuk menu about          
+    [about.html](https://github.com/Ridwanwildan/Lab4Web/blob/main/lab4_layout/about.html)                
+
+![Gambar 11](Screenshoots/Capture11.PNG)          
+
+* Tambahkan layout untuk menu contact          
+    [kontak.html](https://github.com/Ridwanwildan/Lab4Web/blob/main/lab4_layout/kontak.html)                
+
+![Gambar 12](Screenshoots/Capture12.PNG)           
